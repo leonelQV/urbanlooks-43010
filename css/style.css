@@ -1,59 +1,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-    /* header */
-header{
+/* header */
+header {
     background-color: #46949d;
     padding: 20px 20px 20px 20px;
     position: sticky;
     top: 0;
-    display: flex;
-    justify-content: space-between;
     align-items: center;
     z-index: 1;
-}
-
-header h1{
-    color: white;
-    font-size: 50px;
     font-family: 'Permanent Marker', cursive;
-    font-weight: 50;
-    text-align: center;
 }
 
-.abrir-menu{
-    display: none;
-}
-
-header nav ul{
+header nav ul {
     list-style: none;
     text-align: right;
     padding: 20px 5px 0px 0px;
     display: flex;
 }
 
-header nav ul li a{
+header nav ul li a {
     text-decoration: none;
     color: white;
 }
 
-header nav ul li{
+header nav ul li {
     margin: 5px;
 }
 
-.destacados{
+.destacados {
     width: 100%;
-    height: calc(50vh - 127px);
+    height: calc(60vh - 127px);
     background-image: url(../img/fondo.png);
-    background-position:center;
-    background-size:cover;
-    background-repeat:no-repeat;
-    background-attachment:fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     color: white;
     text-align: center;
     display: flex;
@@ -62,119 +49,119 @@ header nav ul li{
     align-items: center;
 }
 
-    /* main */
+/* main */
 
-main{
+main {
     background-color: #44b39d;
 }
 
-main section h2{
+main section h2 {
     display: inline-block;
     font-size: 30px;
     border: 5px solid white;
     padding: 10px;
 }
 
-main section p{
+main section p {
     color: white;
     margin: 20px;
 }
 
-.detalles{
+.detalles {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-.detalles div{
+.detalles div {
     width: 80%;
     text-align: center;
     margin: 20px;
 }
 
-.detalles div h3{
+.detalles div h3 {
     font-size: 35px;
 }
 
-.detalles div p{
-    font-size:  20px;
+.detalles div p {
+    font-size: 20px;
 }
 
 section iframe {
     margin: 50px;
-} 
+}
 
-main div h3{
+main div h3 {
     color: white;
     padding: 10px;
     text-decoration: underline;
     margin: 10px;
 }
 
-main div p{
+main div p {
     color: white;
     padding: 10px;
     margin: 10px;
 }
 
-.ventanas{
+.ventanas {
     background-image: url(../img/fondo.png);
-    background-position:center;
+    background-position: center;
 }
 
-.cuadros{
+.cuadros {
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
 }
 
-.ventanas .cuadros div{
+.ventanas .cuadros div {
     width: 325px;
-    height: 390px; 
+    height: 390px;
     border: 2px solid white;
     text-align: center;
     margin: 20px;
 }
 
-.ventanas div h3{
+.ventanas div h3 {
     margin-bottom: 20px;
 }
 
-.ventanas div img{
+.ventanas div img {
     width: 200px;
     height: 250px;
     margin: 10px;
     text-align: center;
 }
 
-.boton{
+.boton {
     text-decoration: none;
     color: black;
     background-color: white;
     padding: 10px;
 }
 
-.cuadros div a:hover{
+.cuadros div a:hover {
     background-color: #44b39d;
     color: white;
 }
 
 /* footer */
 
-footer{
+footer {
     background-color: #44b39d;
 }
 
-footer{
+footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding:25px;
+    padding: 25px;
 }
 
-footer h2{
+footer h2 {
     color: white;
     font-size: 50px;
     font-family: 'Permanent Marker', cursive;
@@ -182,228 +169,412 @@ footer h2{
     text-align: center;
 }
 
-footer h4{
+footer h4 {
     color: white;
     font-size: 30px;
     text-align: left;
     padding: 10px;
 }
 
-footer label{
+footer label {
     color: white;
     font-size: 20px;
     text-align: left;
     padding: 10px;
 }
 
-.terminal{
+.terminal {
     text-align: left;
     margin: 20;
 }
 
-footer h5{
+footer h5 {
     color: white;
     font-size: 30px;
     text-align: center;
     padding: 10px;
 }
 
-.pagos{
+.pagos {
     text-align: center;
 }
 
 
-footer h6{
+footer h6 {
     color: white;
     font-size: 30px;
     text-align: right;
     padding: 10px;
 }
 
-.redes{
+.redes {
     text-align: right;
 }
 
-footer div a img{
+footer div a img {
     width: 60px;
     height: 60px;
 }
 
 /* PRODUCTOS */
-.productos{
+.productos {
     width: 100%;
     height: calc(grid-auto-rows);
     background-image: url(../img/fondo.png);
-    background-position:center;
-    background-size:cover;
-    background-repeat:no-repeat;
-    background-attachment:fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     color: white;
     text-align: center;
     font-size: 30px;
 }
 
-main section h2{
+.productos h2 {
     font-size: 30px;
     border: 5px solid white;
     padding: 10px;
     margin: 20px 0px 20px 0px;
 }
 
-.grid-ropas{
+.grid-ropas {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: 400px;
     gap: 10px;
 }
 
-.grid-ropas div img{
+.grid-ropas div img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     cursor: pointer;
 }
 
-.camisa-leñador{
-    grid-column:span 2;
+.camisa-leñador {
+    grid-column: span 2;
 }
 
-.remera-salmon{
+.remera-salmon {
     grid-row: span 2;
 }
 
-.puffer{
+.puffer {
     grid-row: span 2;
 }
 
 /* CONTACTO */
-.contactos{
+.contactos {
     width: 100%;
     height: calc(grid-auto-rows);
     background-image: url(../img/fondo.png);
-    background-position:center;
-    background-size:cover;
-    background-repeat:no-repeat;
-    background-attachment:fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     color: white;
     text-align: center;
     font-size: 30px;
 }
 
-.contactos div label{
-    margin-top: 20px ;
+.contactos div label {
+    margin-top: 20px;
 }
 
-.contactos div input{
+.contactos div input {
     margin: 0px 0px 20px 0px;
 }
 
 /* NOSOTROS */
-.nosotros{
+.nosotros {
     width: 100%;
-    height: calc(100vh - 300px);
+    height: calc(grid-auto-rows);
     background-image: url(../img/fondo.png);
-    background-position:center;
-    background-size:cover;
-    background-repeat:no-repeat;
-    background-attachment:fixed;
-    text-align: center;
-    padding: 50px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 20px;
+    color: white;
 }
 
-main div label{
-    color: white;
-    font-size: 30px;
-    text-align: left;
-    padding: 10px;
+.parrafo h2 {
+    margin: 20px;
 }
 
-main div h2 {
-    color: white;
-    font-size: 30px;
-}
+
 /* LOGIN */
 
-.login{
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
-    height: calc(75vh - 300px);
-    background-image: url(../img/fondo.png);
-    background-position:center;
-    background-size:cover;
-    background-repeat:no-repeat;
-    background-attachment:fixed;
-    text-align: center;
-    padding: 150px 5px 0px 0px;
+    height: 70vh;
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    animation: animateBg 5s linear infinite;
 }
+
+@keyframes animateBg {
+    100% {
+        filter: hue-rotate(360deg);
+    }
+}
+
+.login-box {
+    position: relative;
+    width: 400px;
+    height: 450px;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, .5);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(15px);
+}
+
+.login-box h4 {
+    font-size: 2em;
+    color: #fff;
+    text-align: center;
+}
+
+.input-box {
+    position: relative;
+    width: 310px;
+    margin: 30px;
+    border-bottom: 2px solid #fff;
+}
+
+.input-box label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 1em;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.input-box input:focus~label,
+.input-box input:valid~label {
+    top: 5px;
+}
+
+.input-box input {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    color: #fff;
+    padding: 0 35px 0 5px;
+}
+
+.input-box .icon {
+    position: absolute;
+    right: 8px;
+    color: #fff;
+    font-size: 1.2em;
+    line-height: 57px;
+}
+
+.remember-forgot {
+    margin: -15px 0 15px;
+    font-size: .9em;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.remember-forgot label input {
+    margin-right: 3px;
+}
+
+.remember-forgot a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.remember-forgot a:hover {
+    text-decoration: underline;
+}
+
+button {
+    width: 100%;
+    height: 40px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 1em;
+    color: #000;
+    font-weight: 500;
+}
+
+.register-link {
+    font-size: .9em;
+    color: #fff;
+    text-align: center;
+    margin: 25px 0 10px;
+}
+
+.register-link p a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.register-link p a:hover {
+    text-decoration: underline;
+}
+
+.input-box {
+    width: 290px;
+}
+
 
 /* media-querys */
 
-@media screen and (max-width: 730px){
-    .abrir-menu{
-        display: block;
-    }
-}
+/* inicio */
 
-@media screen and (max-width: 675px){
-    header{
+@media screen and (max-width: 675px) {
+    header {
         flex-direction: column;
     }
 }
-@media screen and (max-width: 430px){
-    .destacados h2{
+
+@media screen and (max-width: 430px) {
+    .destacados h2 {
         font-size: 10px;
     }
-    .destacados p{
+
+    .destacados p {
         font-size: 5px;
         text-align: center;
     }
 }
 
-@media screen and (max-width: 550px){
-    .destacados h2{
+@media screen and (max-width: 350px) {
+    .destacados h2 {
+        font-size: 2px;
+        border: 5px solid white;
+        padding: 3px;
+    }
+
+    .destacados p {
+        font-size: 1px;
+        text-align: center;
+        padding: 0;
+        margin: 1px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .carrusel {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .destacados h2 {
         font-size: 25px;
     }
-    .destacados p{
+
+    .destacados p {
         font-size: 15px;
         text-align: center;
         width: 80%;
     }
 }
 
-@media screen and (max-width: 550px){
-    .detalles iframe{
-    width:320px;
-    height:300px;
+@media screen and (max-width: 550px) {
+    .detalles iframe {
+        width: 320px;
+        height: 300px;
     }
 }
 
-@media screen and (max-width: 870px){
-    footer{
+@media screen and (max-width: 870px) {
+    footer {
         flex-direction: column;
     }
 }
 
-@media screen and (max-width: 950px){
-    .grid-ropas{
-        grid-template-columns: repeat(2,1fr);
+@media screen and (max-width: 350px) {
+    footer h2 {
+        font-size: 40px;
+    }
+
+    footer h4 {
+        font-size: 30px;
+    }
+
+    footer .botones {
+        margin: 20px;
+    }
+
+    footer div textarea {
+        margin: 10px;
+    }
+
+    footer .redes {
+        text-align: center;
+    }
+}
+
+/* productos */
+@media screen and (max-width: 950px) {
+    .grid-ropas {
+        grid-template-columns: repeat(2, 1fr);
         grid-auto-rows: 220;
     }
-    .grid-prendas{
+
+    .grid-prendas {
         grid-column: span 1;
         grid-row: span 1;
     }
-    .batik{
+
+    .batik {
         grid-column: span 2;
     }
 }
 
-@media screen and (max-width: 450px){
-    .grid-ropas{
-        grid-template-columns:1fr;
+@media screen and (max-width: 450px) {
+    .grid-ropas {
+        grid-template-columns: 1fr;
     }
-    .grid-prendas{
+
+    .grid-prendas {
         grid-column: span 1;
         grid-row: span 1;
+    }
+}
+
+/* Consultas */
+
+/* Nosotros */
+
+@media screen and (max-width: 350px) {
+    .nosotros p {
+        font-size: 18px;
+    }
+
+}
+
+/* Login */
+@media (max-width: 360px) {
+    .login-box {
+        width: 100%;
+        height: 100vh;
+        border: none;
+        border-radius: 0;
     }
 }
