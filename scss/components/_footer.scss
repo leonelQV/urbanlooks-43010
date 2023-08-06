@@ -1,0 +1,67 @@
+footer{
+    background-color: #44b39d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+
+    h2{
+    color: white;
+    font-size: 50px;
+    font-family: 'Permanent Marker', cursive;
+    font-weight: 50;
+    text-align: center;
+    }
+    .terminal{
+        text-align: left;
+        margin: 20;
+        h4{
+            color: white;
+            font-size: 30px;
+            text-align: left;
+            padding: 10px;
+        }
+        label{
+            color: white;
+            font-size: 20px;
+            text-align: left;
+            padding: 10px;
+        }
+        input{
+
+        }
+    }
+
+    .pagos{
+        text-align: center;
+        h5{
+            color: white;
+            font-size: 30px;
+            text-align: center;
+            padding: 10px;
+        }
+        a{
+            }
+            img{
+                width: 60px;
+                height: 60px;
+            }
+        }
+    .redes{
+        text-align: right;
+        h6{
+            color: white;
+            font-size: 30px;
+            text-align: right;
+            padding: 10px;
+        }
+        a{
+
+        }
+        img{
+            width: 60px;
+            height: 60px;
+        }
+    }
+}
+

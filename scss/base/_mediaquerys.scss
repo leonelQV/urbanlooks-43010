@@ -1,0 +1,133 @@
+@media screen and (max-width: 675px) {
+    header {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .destacados h2 {
+        font-size: 10px;
+    }
+
+    .destacados p {
+        font-size: 5px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .destacados h2 {
+        font-size: 2px;
+        border: 5px solid white;
+        padding: 3px;
+    }
+
+    .destacados p {
+        font-size: 1px;
+        text-align: center;
+        padding: 0;
+        margin: 1px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .carrusel {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .destacados h2 {
+        font-size: 25px;
+    }
+
+    .destacados p {
+        font-size: 15px;
+        text-align: center;
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .detalles iframe {
+        width: 320px;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 870px) {
+    footer {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    footer h2 {
+        font-size: 40px;
+    }
+
+    footer h4 {
+        font-size: 30px;
+    }
+
+    footer .botones {
+        margin: 20px;
+    }
+
+    footer div textarea {
+        margin: 10px;
+    }
+
+    footer .redes {
+        text-align: center;
+    }
+}
+
+/* productos */
+@media screen and (max-width: 950px) {
+    .grid-ropas {
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: 220;
+    }
+
+    .grid-prendas {
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+
+    .batik {
+        grid-column: span 2;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .grid-ropas {
+        grid-template-columns: 1fr;
+    }
+
+    .grid-prendas {
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+}
+
+/* Contactos */
+
+/* Nosotros */
+
+@media screen and (max-width: 350px) {
+    .nosotros p {
+        font-size: 18px;
+    }
+
+}
+
+/* Login */
+@media (max-width: 360px) {
+    .login-box {
+        width: 100%;
+        height: 100vh;
+        border: none;
+        border-radius: 0;
+    }
+}

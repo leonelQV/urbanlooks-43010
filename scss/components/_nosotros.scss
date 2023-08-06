@@ -1,0 +1,21 @@
+.nosotros{
+    width: 100%;
+    height: calc(grid-auto-rows);
+    background-image: url(../img/fondo.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 20px;
+    color: white;
+    .parrafo{
+        h2{
+            margin: 30px;
+        }
+        p{
+            font-size: 30px;
+            color: antiquewhite;
+        }
+    }
+
+}

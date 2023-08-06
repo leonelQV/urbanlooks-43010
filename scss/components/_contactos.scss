@@ -1,0 +1,28 @@
+.contactos{
+    width: 100%;
+    height: calc(grid-auto-rows);
+    background-image: url(../img/fondo.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    form{
+
+    }
+    div{
+        label{
+            color: white;
+            font-size: 30px;
+            text-align: left;
+            padding: 10px;
+            margin-top: 20px;
+        }
+        input{
+            margin: 0px 0px 0px 0px;
+            font-size: 20px;
+        }
+    }
+}

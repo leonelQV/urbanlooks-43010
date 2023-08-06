@@ -1,0 +1,399 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+header {
+  font-family: 'Permanent Marker', cursive; }
+
+footer h2 {
+  font-family: 'Permanent Marker', cursive; }
+
+header {
+  background-color: #46949d;
+  padding: 20px 20px 20px 20px;
+  position: sticky;
+  top: 0;
+  align-items: center;
+  z-index: 1; }
+  header div ul {
+    list-style: none;
+    text-align: right;
+    padding: 20px 5px 0px 0px;
+    display: flex; }
+    header div ul li {
+      margin: 5px; }
+      header div ul li a {
+        text-decoration: none;
+        color: white; }
+
+main {
+  background-color: #44b39d; }
+  main .carousel-control-prev {
+    margin-top: 120px; }
+  main .carousel-control-next {
+    margin-top: 120px; }
+  main .destacados {
+    width: 100%;
+    height: calc(60vh - 127px);
+    background-image: url(../img/fondo.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    main .destacados h2 {
+      display: inline-block;
+      font-size: 30px;
+      border: 5px solid white;
+      padding: 10px; }
+    main .destacados p {
+      color: white;
+      margin: 20px;
+      padding: 10px;
+      font-size: 30px; }
+  main .detalles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; }
+    main .detalles div {
+      width: 80%;
+      text-align: center;
+      margin: 20px; }
+      main .detalles div h3 {
+        color: white;
+        padding: 10px;
+        text-decoration: underline;
+        margin: 10px;
+        font-size: 35px; }
+      main .detalles div p {
+        color: white;
+        font-size: 20px; }
+    main .detalles iframe {
+      margin: 50px; }
+  main .cuadros {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-image: url(../img/fondo.png);
+    background-position: center; }
+    main .cuadros div {
+      width: 325px;
+      height: 390px;
+      border: 2px solid white;
+      text-align: center;
+      margin: 20px; }
+      main .cuadros div img {
+        width: 200px;
+        height: 250px;
+        margin: 10px;
+        text-align: center; }
+      main .cuadros div h3 {
+        color: white;
+        padding: 10px;
+        text-decoration: underline;
+        margin: 10px;
+        margin-bottom: 10px; }
+      main .cuadros div a:hover {
+        background-color: #44b39d;
+        color: white; }
+      main .cuadros div .boton {
+        text-decoration: none;
+        color: black;
+        background-color: white;
+        padding: 10px; }
+
+.productos {
+  width: 100%;
+  height: calc(grid-auto-rows);
+  background-image: url(../img/fondo.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  text-align: center; }
+  .productos h2 {
+    font-size: 30px;
+    border: 5px solid white;
+    padding: 10px;
+    margin: 20px 0px 20px 0px; }
+  .productos .grid-ropas {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 400px;
+    gap: 10px; }
+    .productos .grid-ropas div img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      cursor: pointer; }
+    .productos .grid-ropas .camisa-leñador {
+      grid-column: span 2; }
+    .productos .grid-ropas .remera-salmon {
+      grid-row: span 2; }
+    .productos .grid-ropas .puffer {
+      grid-row: span 2; }
+
+.contactos {
+  width: 100%;
+  height: calc(grid-auto-rows);
+  background-image: url(../img/fondo.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+  text-align: center;
+  font-size: 30px; }
+  .contactos div label {
+    color: white;
+    font-size: 30px;
+    text-align: left;
+    padding: 10px;
+    margin-top: 20px; }
+  .contactos div input {
+    margin: 0px 0px 0px 0px;
+    font-size: 20px; }
+
+.nosotros {
+  width: 100%;
+  height: calc(grid-auto-rows);
+  background-image: url(../img/fondo.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 20px;
+  color: white; }
+  .nosotros .parrafo h2 {
+    margin: 30px; }
+  .nosotros .parrafo p {
+    font-size: 30px;
+    color: antiquewhite; }
+
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 70vh;
+  background-image: url(../img/bg.jpg);
+  background-size: cover;
+  background-position: center;
+  animation: animateBg 5s linear infinite; }
+
+@keyframes animateBg {
+  100% {
+    filter: hue-rotate(360deg); } }
+  .login section .login-box form h4 {
+    font-size: 2em;
+    color: #fff;
+    text-align: center; }
+  .login section .login-box form .input-box {
+    position: relative;
+    width: 310px;
+    margin: 30px;
+    border-bottom: 2px solid #fff;
+    width: 290px; }
+    .login section .login-box form .input-box .icon {
+      position: absolute;
+      right: 8px;
+      color: #fff;
+      font-size: 1.2em;
+      line-height: 57px; }
+    .login section .login-box form .input-box input {
+      width: 100%;
+      height: 50px;
+      background: transparent;
+      border: none;
+      outline: none;
+      font-size: 1em;
+      color: #fff;
+      padding: 0 35px 0 5px; }
+    .login section .login-box form .input-box label {
+      position: absolute;
+      top: 50%;
+      left: 5px;
+      transform: translateY(-50%);
+      font-size: 1em;
+      color: #fff;
+      pointer-events: none;
+      transition: .5s; }
+  .login section .login-box .remember-forgot {
+    margin: -15px 0 15px;
+    font-size: .9em;
+    color: #fff;
+    display: flex;
+    justify-content: space-between; }
+    .login section .login-box .remember-forgot label input {
+      margin-right: 3px; }
+    .login section .login-box .remember-forgot a {
+      color: #fff;
+      text-decoration: none; }
+      .login section .login-box .remember-forgot a:hover {
+        text-decoration: underline; }
+  .login section .login-box button {
+    width: 100%;
+    height: 40px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 1em;
+    color: #000;
+    font-weight: 500; }
+  .login section .login-box .register-link {
+    font-size: .9em;
+    color: #fff;
+    text-align: center;
+    margin: 25px 0 10px; }
+    .login section .login-box .register-link p a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 600; }
+      .login section .login-box .register-link p a:hover {
+        text-decoration: underline; }
+
+footer {
+  background-color: #44b39d;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px; }
+  footer h2 {
+    color: white;
+    font-size: 50px;
+    font-family: 'Permanent Marker', cursive;
+    font-weight: 50;
+    text-align: center; }
+  footer .terminal {
+    text-align: left;
+    margin: 20; }
+    footer .terminal h4 {
+      color: white;
+      font-size: 30px;
+      text-align: left;
+      padding: 10px; }
+    footer .terminal label {
+      color: white;
+      font-size: 20px;
+      text-align: left;
+      padding: 10px; }
+  footer .pagos {
+    text-align: center; }
+    footer .pagos h5 {
+      color: white;
+      font-size: 30px;
+      text-align: center;
+      padding: 10px; }
+    footer .pagos img {
+      width: 60px;
+      height: 60px; }
+  footer .redes {
+    text-align: right; }
+    footer .redes h6 {
+      color: white;
+      font-size: 30px;
+      text-align: right;
+      padding: 10px; }
+    footer .redes img {
+      width: 60px;
+      height: 60px; }
+
+@media screen and (max-width: 675px) {
+  header {
+    flex-direction: column; } }
+
+@media screen and (max-width: 430px) {
+  .destacados h2 {
+    font-size: 10px; }
+  .destacados p {
+    font-size: 5px;
+    text-align: center; } }
+
+@media screen and (max-width: 350px) {
+  .destacados h2 {
+    font-size: 2px;
+    border: 5px solid white;
+    padding: 3px; }
+  .destacados p {
+    font-size: 1px;
+    text-align: center;
+    padding: 0;
+    margin: 1px; } }
+
+@media screen and (max-width: 550px) {
+  .carrusel {
+    display: none; } }
+
+@media screen and (max-width: 550px) {
+  .destacados h2 {
+    font-size: 25px; }
+  .destacados p {
+    font-size: 15px;
+    text-align: center;
+    width: 80%; } }
+
+@media screen and (max-width: 550px) {
+  .detalles iframe {
+    width: 320px;
+    height: 300px; } }
+
+@media screen and (max-width: 870px) {
+  footer {
+    flex-direction: column; } }
+
+@media screen and (max-width: 350px) {
+  footer h2 {
+    font-size: 40px; }
+  footer h4 {
+    font-size: 30px; }
+  footer .botones {
+    margin: 20px; }
+  footer div textarea {
+    margin: 10px; }
+  footer .redes {
+    text-align: center; } }
+
+/* productos */
+@media screen and (max-width: 950px) {
+  .grid-ropas {
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 220; }
+  .grid-prendas {
+    grid-column: span 1;
+    grid-row: span 1; }
+  .batik {
+    grid-column: span 2; } }
+
+@media screen and (max-width: 450px) {
+  .grid-ropas {
+    grid-template-columns: 1fr; }
+  .grid-prendas {
+    grid-column: span 1;
+    grid-row: span 1; } }
+
+/* Contactos */
+/* Nosotros */
+@media screen and (max-width: 350px) {
+  .nosotros p {
+    font-size: 18px; } }
+
+/* Login */
+@media (max-width: 360px) {
+  .login-box {
+    width: 100%;
+    height: 100vh;
+    border: none;
+    border-radius: 0; } }

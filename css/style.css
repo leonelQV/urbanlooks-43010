@@ -6,6 +6,7 @@
     box-sizing: border-box;
 }
 
+/* index */
 /* header */
 header {
     background-color: #46949d;
@@ -33,6 +34,19 @@ header nav ul li {
     margin: 5px;
 }
 
+/* main */
+
+main {
+    background-color: #44b39d;
+}
+
+.carousel-control-prev{
+    margin-top: 120px;
+}
+.carousel-control-next{
+    margin-top: 120px;
+}
+
 .destacados {
     width: 100%;
     height: calc(60vh - 127px);
@@ -49,23 +63,20 @@ header nav ul li {
     align-items: center;
 }
 
-/* main */
-
-main {
-    background-color: #44b39d;
-}
-
-main section h2 {
+.destacados h2 {
     display: inline-block;
     font-size: 30px;
     border: 5px solid white;
     padding: 10px;
 }
 
-main section p {
+.destacados p {
     color: white;
     margin: 20px;
+    padding: 10px;
 }
+
+/* detalles  */
 
 .detalles {
     display: flex;
@@ -82,32 +93,18 @@ main section p {
 
 .detalles div h3 {
     font-size: 35px;
+    color: white;
+    text-decoration: underline;
 }
 
 .detalles div p {
-    font-size: 20px;
-}
-
-section iframe {
-    margin: 50px;
-}
-
-main div h3 {
+    font-size: 30px;
+    text-align: center;
     color: white;
-    padding: 10px;
-    text-decoration: underline;
-    margin: 10px;
 }
 
-main div p {
-    color: white;
-    padding: 10px;
-    margin: 10px;
-}
-
-.ventanas {
-    background-image: url(../img/fondo.png);
-    background-position: center;
+.detalles iframe {
+    margin: 30px;
 }
 
 .cuadros {
@@ -115,9 +112,11 @@ main div p {
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+    background-image: url(../img/fondo.png);
+    background-position: center;
 }
 
-.ventanas .cuadros div {
+.cuadros div {
     width: 325px;
     height: 390px;
     border: 2px solid white;
@@ -125,28 +124,34 @@ main div p {
     margin: 20px;
 }
 
-.ventanas div h3 {
-    margin-bottom: 20px;
-}
-
-.ventanas div img {
+.cuadros div img {
     width: 200px;
     height: 250px;
     margin: 10px;
     text-align: center;
 }
-
-.boton {
-    text-decoration: none;
-    color: black;
-    background-color: white;
+.cuadros h3 {
+    color: white;
     padding: 10px;
+    text-decoration: underline;
+    margin: 10px;
+    margin-bottom: 10px;
 }
 
 .cuadros div a:hover {
     background-color: #44b39d;
     color: white;
 }
+
+.boton {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 5px 2.5px 5px 2.5px ;
+    border-radius: 5px;
+}
+
+
 
 /* footer */
 
@@ -283,7 +288,18 @@ footer div a img {
 }
 
 .contactos div input {
-    margin: 0px 0px 20px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+.contactos label {
+    color: white;
+    font-size: 30px;
+    text-align: left;
+    padding: 10px;
+}
+
+.contactos input{
+    font-size: 20px;
 }
 
 /* NOSOTROS */
@@ -300,7 +316,12 @@ footer div a img {
 }
 
 .parrafo h2 {
-    margin: 20px;
+    margin: 30px;
+}
+
+.parrafo p {
+    font-size: 30px;
+    color: antiquewhite;
 }
 
 
@@ -440,7 +461,6 @@ button {
     width: 290px;
 }
 
-
 /* media-querys */
 
 /* inicio */
@@ -502,6 +522,13 @@ button {
     }
 }
 
+@media screen and (max-width: 350px) {
+    .detalles div p {
+        font-size: 20px;
+    }
+}
+
+
 @media screen and (max-width: 870px) {
     footer {
         flex-direction: column;
@@ -558,7 +585,7 @@ button {
     }
 }
 
-/* Consultas */
+/* Contactos */
 
 /* Nosotros */
 

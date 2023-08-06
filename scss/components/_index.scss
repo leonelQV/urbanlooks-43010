@@ -1,0 +1,104 @@
+main{
+    background-color: #44b39d;
+    .carousel-control-prev{
+        margin-top: 120px;
+    }
+    .carousel-control-next{
+        margin-top: 120px;
+    }
+    
+    .destacados{
+        width: 100%;
+        height: calc(60vh - 127px);
+        background-image: url(../img/fondo.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        color: white;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        h2{
+            display: inline-block;
+            font-size: 30px;
+            border: 5px solid white;
+            padding: 10px;
+        }
+        p{
+            color: white;
+            margin: 20px;
+            padding: 10px;
+            font-size: 30px;
+        }
+    }
+
+    .detalles{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        div{
+            width: 80%;
+            text-align: center;
+            margin: 20px;
+            h3{
+                color: white;
+                padding: 10px;
+                text-decoration: underline;
+                margin: 10px;
+                font-size: 35px;
+            }
+            p{
+                color: white;
+                font-size: 20px;
+            }
+        }
+        iframe{
+            margin: 50px;
+        }
+    } 
+        .cuadros{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+            background-image: url(../img/fondo.png);
+            background-position: center;
+            div{
+                width: 325px;
+                height: 390px;
+                border: 2px solid white;
+                text-align: center;
+                margin: 20px;
+            img{
+                width: 200px;
+                height: 250px;
+                margin: 10px;
+                text-align: center;
+            }
+            h3{
+                color: white;
+                padding: 10px;
+                text-decoration: underline;
+                margin: 10px;
+                margin-bottom: 10px;
+            }
+                a{
+                    &:hover{
+                        background-color: #44b39d;
+                        color: white;
+                    }
+                }
+                .boton{
+                    text-decoration: none;
+                    color: black;
+                    background-color: white;
+                    padding: 10px;
+                }   
+        }
+}
+}
+
