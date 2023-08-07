@@ -1,5 +1,10 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+.productos h2 {
+  display: inline-block;
+  justify-content: center;
+  align-items: center; }
+
 * {
   margin: 0;
   padding: 0;
@@ -10,6 +15,13 @@ header {
 
 footer h2 {
   font-family: 'Permanent Marker', cursive; }
+
+.boton {
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px; }
 
 header {
   background-color: #46949d;
@@ -30,11 +42,11 @@ header {
         color: white; }
 
 main {
-  background-color: #44b39d; }
+  background-color: #46949d; }
   main .carousel-control-prev {
-    margin-top: 120px; }
+    margin-top: 0px; }
   main .carousel-control-next {
-    margin-top: 120px; }
+    margin-top: 0px; }
   main .destacados {
     width: 100%;
     height: calc(60vh - 127px);
@@ -51,14 +63,14 @@ main {
     align-items: center; }
     main .destacados h2 {
       display: inline-block;
-      font-size: 30px;
+      font-size: 0.9em, 1em, 1.2em, 2em, 20px, 30px, 35px, 40px, 50px, 6;
       border: 5px solid white;
       padding: 10px; }
     main .destacados p {
       color: white;
       margin: 20px;
       padding: 10px;
-      font-size: 30px; }
+      font-size: 0.9em, 1em, 1.2em, 2em, 20px, 30px, 35px, 40px, 50px, 6; }
   main .detalles {
     display: flex;
     justify-content: center;
@@ -73,10 +85,10 @@ main {
         padding: 10px;
         text-decoration: underline;
         margin: 10px;
-        font-size: 35px; }
+        font-size: 0.9em, 1em, 1.2em, 2em, 20px, 30px, 35px, 40px, 50px, 7; }
       main .detalles div p {
         color: white;
-        font-size: 20px; }
+        font-size: 0.9em, 1em, 1.2em, 2em, 20px, 30px, 35px, 40px, 50px, 5; }
     main .detalles iframe {
       margin: 50px; }
   main .cuadros {
@@ -104,13 +116,8 @@ main {
         margin: 10px;
         margin-bottom: 10px; }
       main .cuadros div a:hover {
-        background-color: #44b39d;
+        background-color: #46949d;
         color: white; }
-      main .cuadros div .boton {
-        text-decoration: none;
-        color: black;
-        background-color: white;
-        padding: 10px; }
 
 .productos {
   width: 100%;
@@ -119,10 +126,9 @@ main {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
-  text-align: center; }
+  background-attachment: fixed; }
   .productos h2 {
-    font-size: 30px;
+    font-size: 0.9em, 1em, 1.2em, 2em, 20px, 30px, 35px, 40px, 50px, 6;
     border: 5px solid white;
     padding: 10px;
     margin: 20px 0px 20px 0px; }
@@ -154,16 +160,16 @@ main {
   background-attachment: fixed;
   color: white;
   text-align: center;
-  font-size: 30px; }
+  font-size: 0.9em, 1em, 1.2em, 2em, 20px, 30px, 35px, 40px, 50px, 6; }
   .contactos div label {
     color: white;
-    font-size: 30px;
+    font-size: 0.9em, 1em, 1.2em, 2em, 20px, 30px, 35px, 40px, 50px, 6;
     text-align: left;
     padding: 10px;
     margin-top: 20px; }
   .contactos div input {
     margin: 0px 0px 0px 0px;
-    font-size: 20px; }
+    font-size: 0.9em, 1em, 1.2em, 2em, 20px, 30px, 35px, 40px, 50px, 5; }
 
 .nosotros {
   width: 100%;
@@ -176,10 +182,14 @@ main {
   padding: 20px;
   color: white; }
   .nosotros .parrafo h2 {
-    margin: 30px; }
+    margin: 20px;
+    display: inline-block;
+    border: 5px solid white;
+    padding: 10px; }
   .nosotros .parrafo p {
-    font-size: 30px;
-    color: antiquewhite; }
+    font-size: 0.9em, 1em, 1.2em, 2em, 20px, 30px, 35px, 40px, 50px, 6;
+    color: antiquewhite;
+    margin: 20px; }
 
 .login {
   display: flex;
@@ -196,7 +206,7 @@ main {
   100% {
     filter: hue-rotate(360deg); } }
   .login section .login-box form h4 {
-    font-size: 2em;
+    font-size: 0.9em, 1em, 1.2em, 2em, 20px, 30px, 35px, 40px, 50px, 4;
     color: #fff;
     text-align: center; }
   .login section .login-box form .input-box {
@@ -209,7 +219,7 @@ main {
       position: absolute;
       right: 8px;
       color: #fff;
-      font-size: 1.2em;
+      font-size: 0.9em, 1em, 1.2em, 2em, 20px, 30px, 35px, 40px, 50px, 3;
       line-height: 57px; }
     .login section .login-box form .input-box input {
       width: 100%;
@@ -217,7 +227,7 @@ main {
       background: transparent;
       border: none;
       outline: none;
-      font-size: 1em;
+      font-size: 0.9em, 1em, 1.2em, 2em, 20px, 30px, 35px, 40px, 50px, 2;
       color: #fff;
       padding: 0 35px 0 5px; }
     .login section .login-box form .input-box label {
@@ -225,13 +235,13 @@ main {
       top: 50%;
       left: 5px;
       transform: translateY(-50%);
-      font-size: 1em;
+      font-size: 0.9em, 1em, 1.2em, 2em, 20px, 30px, 35px, 40px, 50px, 2;
       color: #fff;
       pointer-events: none;
       transition: .5s; }
   .login section .login-box .remember-forgot {
     margin: -15px 0 15px;
-    font-size: .9em;
+    font-size: 0.9em, 1em, 1.2em, 2em, 20px, 30px, 35px, 40px, 50px, 1;
     color: #fff;
     display: flex;
     justify-content: space-between; }
@@ -250,11 +260,11 @@ main {
     outline: none;
     border-radius: 40px;
     cursor: pointer;
-    font-size: 1em;
+    font-size: 0.9em, 1em, 1.2em, 2em, 20px, 30px, 35px, 40px, 50px, 2;
     color: #000;
     font-weight: 500; }
   .login section .login-box .register-link {
-    font-size: .9em;
+    font-size: 0.9em, 1em, 1.2em, 2em, 20px, 30px, 35px, 40px, 50px, 1;
     color: #fff;
     text-align: center;
     margin: 25px 0 10px; }
@@ -273,7 +283,7 @@ footer {
   padding: 25px; }
   footer h2 {
     color: white;
-    font-size: 50px;
+    font-size: 0.9em, 1em, 1.2em, 2em, 20px, 30px, 35px, 40px, 50px, 9;
     font-family: 'Permanent Marker', cursive;
     font-weight: 50;
     text-align: center; }
@@ -282,19 +292,19 @@ footer {
     margin: 20; }
     footer .terminal h4 {
       color: white;
-      font-size: 30px;
+      font-size: 0.9em, 1em, 1.2em, 2em, 20px, 30px, 35px, 40px, 50px, 6;
       text-align: left;
       padding: 10px; }
     footer .terminal label {
       color: white;
-      font-size: 20px;
+      font-size: 0.9em, 1em, 1.2em, 2em, 20px, 30px, 35px, 40px, 50px, 5;
       text-align: left;
       padding: 10px; }
   footer .pagos {
     text-align: center; }
     footer .pagos h5 {
       color: white;
-      font-size: 30px;
+      font-size: 0.9em, 1em, 1.2em, 2em, 20px, 30px, 35px, 40px, 50px, 6;
       text-align: center;
       padding: 10px; }
     footer .pagos img {
@@ -304,13 +314,14 @@ footer {
     text-align: right; }
     footer .redes h6 {
       color: white;
-      font-size: 30px;
+      font-size: 0.9em, 1em, 1.2em, 2em, 20px, 30px, 35px, 40px, 50px, 6;
       text-align: right;
       padding: 10px; }
     footer .redes img {
       width: 60px;
       height: 60px; }
 
+/* inicio */
 @media screen and (max-width: 675px) {
   header {
     flex-direction: column; } }
@@ -349,6 +360,10 @@ footer {
   .detalles iframe {
     width: 320px;
     height: 300px; } }
+
+@media screen and (max-width: 350px) {
+  .detalles div p {
+    font-size: 20px; } }
 
 @media screen and (max-width: 870px) {
   footer {

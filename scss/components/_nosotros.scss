@@ -7,14 +7,18 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     padding: 20px;
-    color: white;
+    color: $color-secundario;
     .parrafo{
         h2{
-            margin: 30px;
+            margin: 20px;
+            display: inline-block;
+            border: 5px solid $color-secundario;  
+            padding: 10px;
         }
         p{
-            font-size: 30px;
+            font-size: $font-size,6;
             color: antiquewhite;
+            margin: 20px;
         }
     }
 

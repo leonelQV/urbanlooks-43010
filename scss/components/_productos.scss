@@ -6,12 +6,13 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    text-align: center;
+    
     h2{
-        font-size: 30px;
-        border: 5px solid white;
+        font-size:$font-size,6;
+        border: 5px solid $color-secundario;
         padding: 10px;
         margin: 20px 0px 20px 0px;
+        @extend %flex;
     }
     .grid-ropas{ 
         width: 100%;
@@ -37,21 +38,4 @@
             grid-row: span 2;
         }
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }

@@ -1,13 +1,13 @@
 footer{
-    background-color: #44b39d;
+    background-color:$color-setario;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 25px;
 
     h2{
-    color: white;
-    font-size: 50px;
+    color:$color-secundario;
+    font-size: $font-size,9 ;
     font-family: 'Permanent Marker', cursive;
     font-weight: 50;
     text-align: center;
@@ -16,32 +16,27 @@ footer{
         text-align: left;
         margin: 20;
         h4{
-            color: white;
-            font-size: 30px;
+            color: $color-secundario;
+            font-size: $font-size, 6;
             text-align: left;
             padding: 10px;
         }
         label{
-            color: white;
-            font-size: 20px;
+            color: $color-secundario;
+            font-size: $font-size,5;
             text-align: left;
             padding: 10px;
-        }
-        input{
-
         }
     }
 
     .pagos{
         text-align: center;
         h5{
-            color: white;
-            font-size: 30px;
+            color:$color-secundario;
+            font-size:$font-size,6;
             text-align: center;
             padding: 10px;
         }
-        a{
-            }
             img{
                 width: 60px;
                 height: 60px;
@@ -50,13 +45,10 @@ footer{
     .redes{
         text-align: right;
         h6{
-            color: white;
-            font-size: 30px;
+            color:$color-secundario;
+            font-size: $font-size,6;
             text-align: right;
             padding: 10px;
-        }
-        a{
-
         }
         img{
             width: 60px;

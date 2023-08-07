@@ -1,0 +1,30 @@
+$color-primario: #46949d;
+$color-secundario: white;
+$color-terciario: rgba(255, 255, 255, .5);
+$color-cuaternario: #fff;
+$color-quinario: #000;
+$color-setario:#44b39d;
+
+$font-size:
+.9em,
+1em,
+1.2em,
+2em,
+20px,
+30px,
+35px,
+40px,
+50px;
+
+%flex{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin flex($flex, $justify,$aling, $direction){
+    display: $flex;
+    justify-content: $justify;
+    align-items: $aling;
+    flex-direction: $direction;
+}

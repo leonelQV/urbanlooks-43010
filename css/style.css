@@ -317,12 +317,16 @@ footer div a img {
 }
 
 .parrafo h2 {
-    margin: 30px;
+    margin: 20px;
+    display: inline-block;
+    border: 5px solid white;  
+    padding: 10px;
 }
 
 .parrafo p {
     font-size: 30px;
     color: antiquewhite;
+    margin: 20px;
 }
 
 

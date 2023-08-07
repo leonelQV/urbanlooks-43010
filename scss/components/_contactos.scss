@@ -6,23 +6,20 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    color: white;
+    color: $color-secundario;
     text-align: center;
-    font-size: 30px;
-    form{
-
-    }
+    font-size: $font-size,6;
     div{
         label{
-            color: white;
-            font-size: 30px;
+            color: $color-secundario;
+            font-size: $font-size, 6;
             text-align: left;
             padding: 10px;
             margin-top: 20px;
         }
         input{
             margin: 0px 0px 0px 0px;
-            font-size: 20px;
+            font-size: $font-size, 5;
         }
     }
 }

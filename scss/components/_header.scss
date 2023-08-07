@@ -1,16 +1,10 @@
 header{
-    background-color: #46949d;
+    background-color: $color-primario;
     padding: 20px 20px 20px 20px;
     position: sticky;
     top: 0;
     align-items: center;
     z-index: 1;
-    nav{
-        div{
-            a{
-            }
-        }
-    }
     div{
         ul{
             list-style: none;
@@ -21,7 +15,7 @@ header{
                 margin: 5px;
                 a{
                     text-decoration: none;
-                    color: white;
+                    color: $color-secundario;
                 }
             }
         }
