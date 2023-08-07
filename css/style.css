@@ -589,8 +589,26 @@ button {
         grid-row: span 1;
     }
 }
+@media screen and (max-width: 350px) {
+    .grid-ropas {
+        grid-template-columns: 1fr;
+    }
+
+    .grid-prendas {
+        grid-column: span 1;
+        grid-row: span 1;
+    }  
+}
 
 /* Contactos */
+
+@media screen and (max-width: 350px) {
+    input {
+        margin: 0px 0px 10px 0px;
+        font-size: 25px;
+    }
+
+}
 
 /* Nosotros */
 

@@ -6,15 +6,16 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    
+    text-align: center;
     h2{
         font-size:$font-size,6;
         border: 5px solid $color-secundario;
         padding: 10px;
         margin: 20px 0px 20px 0px;
+        color: $color-secundario;
         @extend %flex;
     }
-    .grid-ropas{ 
+        .grid-ropas{ 
         width: 100%;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -38,4 +39,5 @@
             grid-row: span 2;
         }
     }
+
 }

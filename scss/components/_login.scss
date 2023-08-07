@@ -8,68 +8,95 @@
     background-size: cover;
     background-position: center;
     animation: animateBg 5s linear infinite;
-    
+
     @keyframes animateBg {
         100% {
             filter: hue-rotate(360deg);
         }
     }
-    section {
-        .login-box {
+
+    .login-box {
+        position: relative;
+        width: 400px;
+        height: 450px;
+        background-color: transparent;
+        border: 2px solid rgba(255, 255, 255, .5);
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        backdrop-filter: blur(15px);
+
         form {
             h4 {
                 font-size: $font-size, 4;
                 color: #fff;
                 text-align: center;
             }
+
             .input-box {
                 position: relative;
                 width: 310px;
                 margin: 30px;
                 border-bottom: 2px solid $color-cuaternario;
                 width: 290px;
-                .icon { position: absolute;
+
+                .icon {
+                    position: absolute;
                     right: 8px;
                     color: $color-cuaternario;
-                    font-size: $font-size,3;
-                    line-height: 57px;}
+                    font-size: $font-size, 3;
+                    line-height: 57px;
+                }
 
-                input {width: 100%;
+                input {
+                    width: 100%;
                     height: 50px;
                     background: transparent;
                     border: none;
                     outline: none;
-                    font-size: $font-size,2;
+                    font-size: $font-size, 2;
                     color: $color-cuaternario;
-                    padding: 0 35px 0 5px;}
+                    padding: 0 35px 0 5px;
+                }
 
-                label { position: absolute;
+                label {
+                    position: absolute;
                     top: 50%;
                     left: 5px;
                     transform: translateY(-50%);
-                    font-size: $font-size,2;
+                    font-size: $font-size, 2;
                     color: $color-cuaternario;
                     pointer-events: none;
-                    transition: .5s;}
+                    transition: .5s;
+                }
             }
-        }
+
+            .input-box input:focus~label,
+            .input-box input:valid~label {
+                top: 5px;
+            }
+
             .remember-forgot {
                 margin: -15px 0 15px;
-                font-size: $font-size,1;
+                font-size: $font-size, 1;
                 color: $color-cuaternario;
                 display: flex;
                 justify-content: space-between;
+
                 label {
                     input {
                         margin-right: 3px;
                     }
                 }
+
                 a {
                     color: $color-cuaternario;
                     text-decoration: none;
-                &:hover{
-                    text-decoration: underline;
-                }
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
                 }
             }
 
@@ -81,22 +108,24 @@
                 outline: none;
                 border-radius: 40px;
                 cursor: pointer;
-                font-size: $font-size,2;
+                font-size: $font-size, 2;
                 color: $color-quinario;
                 font-weight: 500;
             }
 
             .register-link {
-                font-size: $font-size,1;
+                font-size: $font-size, 1;
                 color: $color-cuaternario;
                 text-align: center;
                 margin: 25px 0 10px;
+
                 p {
                     a {
                         color: $color-cuaternario;
                         text-decoration: none;
-                        font-weight: 600; 
-                        &:hover{
+                        font-weight: 600;
+
+                        &:hover {
                             text-decoration: underline;
                         }
                     }
