@@ -140,7 +140,7 @@ main {
     grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: 400px;
     gap: 10px; }
-    .productos .grid-ropas div img {
+    .productos .grid-ropas .grid-prendas img {
       width: 100%;
       height: 100%;
       object-fit: cover;
@@ -394,21 +394,22 @@ footer {
 
 /* productos */
 @media screen and (max-width: 950px) {
-  .grid-ropas {
+  .productos .grid-ropas {
     grid-template-columns: repeat(2, 1fr);
     grid-auto-rows: 220; }
-  .grid-prendas {
-    grid-column: span 1;
-    grid-row: span 1; }
-  .batik {
-    grid-column: span 2; } }
+    .productos .grid-ropas .camisa-leñador {
+      grid-column: span 1; }
+    .productos .grid-ropas .remera-salmon {
+      grid-row: span 1; } }
 
-@media screen and (max-width: 450px) {
-  .grid-ropas {
-    grid-template-columns: 1fr; }
-  .grid-prendas {
-    grid-column: span 1;
-    grid-row: span 1; } }
+@media screen and (max-width: 950px) {
+  .productos .grid-ropas {
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 220; }
+    .productos .grid-ropas .camisa-leñador {
+      grid-column: span 1; }
+    .productos .grid-ropas .remera-salmon {
+      grid-row: span 1; } }
 
 /* Contactos */
 @media screen and (max-width: 350px) {

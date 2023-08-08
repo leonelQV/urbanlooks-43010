@@ -85,31 +85,35 @@
 
 /* productos */
 @media screen and (max-width: 950px) {
-    .grid-ropas {
+    .productos .grid-ropas{
         grid-template-columns: repeat(2, 1fr);
         grid-auto-rows: 220;
-    }
 
-    .grid-prendas {
-        grid-column: span 1;
-        grid-row: span 1;
-    }
+        .camisa-leñador{
+            grid-column: span 1;
+        }
 
-    .batik {
-        grid-column: span 2;
-    }
+        .remera-salmon{
+            grid-row: span 1;
+        }
+    } 
 }
 
-@media screen and (max-width: 450px) {
-    .grid-ropas {
-        grid-template-columns: 1fr;
-    }
+@media screen and (max-width: 950px) {
+    .productos .grid-ropas{
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: 220;
 
-    .grid-prendas {
-        grid-column: span 1;
-        grid-row: span 1;
-    }
+        .camisa-leñador{
+            grid-column: span 1;
+        }
+
+        .remera-salmon{
+            grid-row: span 1;
+        }
+    } 
 }
+
 
 /* Contactos */
 
