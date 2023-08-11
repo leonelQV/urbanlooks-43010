@@ -21,10 +21,11 @@ footer h2 {
   color: black;
   background-color: white;
   padding: 10px;
-  border-radius: 5px; }
+  border-radius: 10px;
+  border: 1px solid black; }
 
 header {
-  background-color: #46949d;
+  background-color: #98c3ed;
   padding: 20px 20px 20px 20px;
   position: sticky;
   top: 0;
@@ -42,7 +43,8 @@ header {
         color: white; }
 
 main {
-  background-color: #46949d; }
+  background: #09d7a8;
+  background: linear-gradient(43deg, #09d7a8 46%, #98c3ed 56%); }
   main .carousel-control-prev {
     margin-top: 0px; }
   main .carousel-control-next {
@@ -60,7 +62,8 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center; }
+    align-items: center;
+    animation: animateBg 10s linear infinite; }
     main .destacados h2 {
       display: inline-block;
       font-size: 0.9em, 1em, 1.2em, 2em, 20px, 30px, 35px, 40px, 50px, 6;
@@ -103,7 +106,8 @@ main {
       height: 390px;
       border: 2px solid white;
       text-align: center;
-      margin: 20px; }
+      margin: 20px;
+      background-color: #98c3ed; }
       main .cuadros div img {
         width: 200px;
         height: 250px;
@@ -116,7 +120,7 @@ main {
         margin: 10px;
         margin-bottom: 10px; }
       main .cuadros div a:hover {
-        background-color: #46949d;
+        background-color: #98c3ed;
         color: white; }
 
 .productos {
@@ -292,7 +296,7 @@ main {
           text-decoration: underline; }
 
 footer {
-  background-color: #44b39d;
+  background-color: #09d7a8;
   display: flex;
   justify-content: space-between;
   align-items: center;
